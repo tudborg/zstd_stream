@@ -1,4 +1,6 @@
-# ZstdStream
+[![Elixir CI](https://github.com/tudborg/zstd_stream/actions/workflows/elixir.yml/badge.svg)](https://github.com/tudborg/zstd_stream/actions/workflows/elixir.yml)
+
+# ZstdStream 
 
 Elixir Stream of bytes compress / decompress transforms using OTP28's zstd module 
 
