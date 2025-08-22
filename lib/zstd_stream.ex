@@ -44,7 +44,7 @@ defmodule ZstdStream do
       end
     end
 
-    after_fun = fn {dctx, ""} ->
+    after_fun = fn {dctx, _rest} ->
       :zstd.close(dctx)
     end
 
